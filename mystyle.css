@@ -22,11 +22,7 @@ color: #782e22;
 
 }
 
-video{
-    float: left;
-    border: 10px solid;
-    color: #512706
-}
+
 
 nav {
     float: left;
@@ -49,6 +45,17 @@ nav {
     background-color: yellow;
     border: 1px solid gray ;
     text-align: center;
+   }
+
+   video{
+    float: left;
+    padding: 0px;
+    border: 10px solid;
+    color: #512706
+}
+   
+   article{
+    clear: both;
    }
 
 footer {
