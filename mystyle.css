@@ -1,7 +1,11 @@
-h1{
+header{
+    margin: 20px;
+    padding: 20px;
     text-align: center;
     font-size: 60px;
     font-weight: 300px;
+    background-color: #62261d;
+    border: 5px solid #3c1e06;
 }
 
 body{
