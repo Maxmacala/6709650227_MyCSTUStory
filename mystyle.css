@@ -25,18 +25,17 @@ color: #782e22;
 
 nav {
     float: left;
-    width: 20%;
-    height: 820px;
-    padding: 10px;
+    width: 8%;
+    height: 810px;
+    padding: 15px;
     background-color: rgb(151, 108, 52);
     border: 1px solid rgb(97, 38, 38) ;
-    text-align: center;
     clear: both;
    }
 
    main {
     float: left;
-    width: 75%;
+    width: 86%;
     height: 800px;
     padding: 20px;
     background-color: rgb(151, 108, 52);
@@ -54,7 +53,7 @@ nav {
 #Myface{
     float: left;
     width: 19%;
-    height: 250px;
+    height: 280px;
     padding: 0px;
     margin-top: 10px;
 }
@@ -93,10 +92,3 @@ footer {
     text-align: center;
     clear: both;
    }   
-
-h2{
-    font-size: 40px;
-}
-p{
-    line-height: 30px;
-}
