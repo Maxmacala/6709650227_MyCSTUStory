@@ -75,15 +75,6 @@ nav {
     font-size: large;
     display: flow-root;
    }
-
-   div{
-    float: right;
-    width: 16%;
-    height: 800%;
-    background-color: rgb(151, 108, 52);
-    border: 1px solid rgb(97, 38, 38) ;
-
-   }
    
 footer {
     padding: 10px;
