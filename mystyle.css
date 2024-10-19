@@ -1,7 +1,6 @@
 header{
-    margin: 20px;
-    padding: 20px;
-    font-size: 60px;
+    margin: 10px;
+    font-size: 36px;
     font-weight: 300px;
     background-color: #62261d;
     border: 5px solid #3c1e06;
@@ -25,18 +24,25 @@ color: #782e22;
 
 nav {
     float: left;
-    width: 8%;
-    height: 810px;
-    padding: 15px;
+    width: 270px;
+    height: 45px;
+    padding: 0 15px;
     background-color: rgb(151, 108, 52);
     border: 1px solid rgb(97, 38, 38) ;
-    clear: both;
+   
+   }
+
+   nav a {
+    display: inline-block;
+    margin: 0 12px;
+    color: #672a16;
+    font-weight: bold;
    }
 
    main {
     float: left;
-    width: 86%;
-    height: 800px;
+    width: 260px;
+    height: 600px;
     padding: 20px;
     background-color: rgb(151, 108, 52);
     border: 1px solid rgb(97, 38, 38) ;
@@ -44,42 +50,109 @@ nav {
    }
 
    video{
-    margin-left: 100px;
-    padding: 0px;
-    border: 10px solid rgb(97, 38, 38);
+    float: left;
+    margin: 20px;
+        height: 117px;
+        border: 5px solid rgb(97, 38, 38);   
     
 }
    
 #Myface{
+    clear: both;
     float: left;
-    width: 19%;
-    height: 280px;
-    padding: 0px;
-    margin-top: 10px;
+    
+    width: 110px;
+        height: 150px;
+        padding: 0px;
+        margin-top: 10px;
+    
 }
 
    article{
     font-weight: 200;
     width: 70%;
     float: left;
-    display: flow-root;
-    padding: 10px;
+    
+    margin: 0px;
+    padding: 5px;
    }
 
    h1{
     float: left;
+
    }
 
    span{
     clear: both;
-    font-size: large;
-    display: flow-root;
+    float: left;
+    font-size: 15px;
+    width: 250px;
+    
+    
    }
    
 footer {
     padding: 10px;
+    width: 280px;
     background-color: rgb(151, 108, 52);
     border: 1px solid rgb(97, 38, 38) ;
     text-align: center;
     clear: both;
    }   
+
+   @media screen and (min-width: 900px) {
+    
+    header{
+        
+        font-size: 60px;
+    padding: 20px;
+    }
+    
+    nav{
+        width: 8%;
+        height: 940px;
+    }
+
+    nav a{
+        margin-bottom: 5px;
+        display: flex;
+    }
+    
+    main{
+        width: 86.99%;
+        height: 900px;
+    }
+
+    video{
+        margin-left: 300px;
+        height: 360px;
+        width: 50%;
+    padding: 0px;
+    border: 10px solid rgb(97, 38, 38);   
+    }
+
+    article{
+        padding: 10px;
+        display: flow-root;
+       }
+
+       span{
+        width: 1000px;
+        font-size: large;
+
+       }
+
+    #Myface{
+        width: 19%;
+        height: 320px;
+    padding: 0px;
+    margin-top: 10px;
+        
+    }
+
+    footer{
+        width: auto;
+    }
+   
+    
+   }
