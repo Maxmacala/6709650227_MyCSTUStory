@@ -100,6 +100,64 @@ footer {
     clear: both;
    }   
 
+   @media screen and (min-width: 600px) {
+    
+    header{
+        
+        font-size: 60px;
+    padding: 20px;
+    }
+    
+    nav{
+        width: 100px;
+        height: 940px;
+        padding: 0;
+    }
+
+    nav a{
+        margin-bottom: 5px;
+        display: flex;
+    }
+    
+    main{
+        width: 568.5px;
+        height: 900px;
+    }
+
+    video{
+        margin: 0 75px;
+        height: 225px;
+        width: 400px;
+    padding: 0px;
+    border: 10px solid rgb(97, 38, 38);   
+    }
+
+    article{
+        padding: 10px;
+        width: 360px;
+       }
+
+       span{
+        width: 400px;
+        font-size: large;
+
+       }
+
+    #Myface{
+        width: 160px;
+        height: 240px;
+    padding: 0px;
+    margin-top: 10px;
+        
+    }
+
+    footer{
+        width: auto;
+    }
+   
+    
+   }
+
    @media screen and (min-width: 900px) {
     
     header{
@@ -119,7 +177,7 @@ footer {
     }
     
     main{
-        width: 86.99%;
+        width: 89%;
         height: 900px;
     }
 
@@ -133,7 +191,6 @@ footer {
 
     article{
         padding: 10px;
-        display: flow-root;
        }
 
        span{
